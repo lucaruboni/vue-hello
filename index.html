@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <title>Vue Hello</title>
+    <style>
+        body{
+            background-color: rgba(62, 62, 62, 0.824);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        h1{
+            text-align: center;
+            margin-top: 2rem;
+            font-family: 'Barrio', cursive;
+            font-size: 4rem;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            
+        }
+        img{
+            max-width: 100%;
+            box-shadow: 0 0 10px grey;
+            border-radius: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+
+
+
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    
+
+        <div id="app">
+            <h1>{{ message }}</h1>
+            <div class="container">
+                
+                <img :src=media_2 alt="">
+                <img :src=media_3 alt="">
+                <img :src=media_4 alt="">
+                <img :src=media alt="">
+            </div>
+
+
+        </div>
+
+        <script src="./assets/js/app.js"></script>
+
+</body>
+</html>
